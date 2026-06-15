@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     environment {
-        GKE_CLUSTER_NAME = 'cluster-1' // GKE cluster name
-        GKE_PROJECT_ID = 'kiran400' // GCP project ID
-        GKE_ZONE = 'us-central1' // GKE zone
-        GIT_REPO_URL = 'https://github.com/praveen-goud999/k8s-app.git'
+        GKE_CLUSTER_NAME = 'k8s-cluster-fedox'
+        GKE_PROJECT_ID = 'my-first-gcp-497310'
+        GKE_ZONE = 'us-central1'
+        GIT_REPO_URL = 'https://github.com/shaiksaleemafroz/k8s-app.git'
         GIT_BRANCH = 'main'
     }
 
